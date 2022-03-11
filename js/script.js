@@ -12,3 +12,6 @@ M.Slider.init(slider, {
 	duration: 700,
 	interval: 5000
 });
+
+const parallax = document.querySelectorAll('.parallax');
+M.Parallax.init(parallax);
